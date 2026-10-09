@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: demo
-          image: nginx:nexiste-pas
+          image: nginx:stable
           ports:
             - containerPort: 80
 ---
